@@ -1,4 +1,14 @@
 #!/bin/bash
+ch() {
+chomd +x installer.sh
+}
+
+run() {
+./installer.sh
+}
+
+ch()
+run()
 
 # Function to display a message and exit in case of an error
 function error_exit {
